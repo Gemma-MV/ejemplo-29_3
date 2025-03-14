@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 29-3</title>
+</head>
+<body>
+    <h1>Ejercicio de Creacion de Base de Datos con MongoDB</h1>
+    <form action="http://127.0.0.1:3000/basedatos" method="post">
+        <div>
+            <h2>Creacion de la coleccion</h2>
+            <div>
+                <label for="">Nombre DB: </label>
+                <input type="text" name="db" id="">
+            </div>
+            <div>
+                <label for="">Nombre Coleccion: </label>
+                <input type="text" name="coleccion" id="">
+            </div>
+            <div>
+                <label for="">Nombre Persona: </label>
+                <input type="text" name="nombre" id="">
+            </div>
+            <div>
+                <label for="">Edad: </label>
+                <input type="text" name="edad" id="">
+            </div>
+            <input type="submit" name="" id="">
+        </div>
+    </form>
+    <form action="http://127.0.0.1:3000/insertar" method="post">
+        <div>
+            <h2>Inserccion de datos</h2>
+            <div>
+                <label for="">Nombre Persona: </label>
+                <input type="text" name="nombrei" id="">
+            </div>
+            <div>
+                <label for="">Edad: </label>
+                <input type="text" name="edadi" id="">
+            </div>
+            <input type="submit" name="" id="">
+        </div>
+    </form>
+    <form action="http://127.0.0.1:3000/actualizar" method="post">
+        <div>
+            <h2>Actualizacion de datos</h2>
+            <div>
+                <label for="">Nombre Persona: </label>
+                <input type="text" name="nombre" id="">
+            </div>
+            <div>
+                <label for="">Edad: </label>
+                <input type="text" name="edad" id="">
+            </div>
+            <input type="submit" name="" id="">
+        </div>
+    </form>
+    <form action="http://127.0.0.1:3000/borrar" method="post">
+        <div>
+            <h2>Borrar datos</h2>
+            <div>
+                <label for="">Nombre Persona: </label>
+                <input type="text" name="nombre" id="">
+            </div>
+            <div>
+                <label for="">Edad: </label>
+                <input type="text" name="edad" id="">
+            </div>
+            <input type="submit" name="" id="" value="Borrar">
+        </div>
+    </form>
+    <form action="http://127.0.0.1:3000/mostrar" method="get">
+        <!-- Ver select -->
+        <h2>Mostrar datos</h2>
+        <div>
+            <label for="">DB: </label>
+            <input type="text" name="db" id="">
+        </div>
+        <div>
+            <label for="">Nombre Coleccion: </label>
+            <input type="text" name="coleccion" id="">
+        </div>
+        <input type="submit" name="" id="" value="Mostrar">
+    </form>
+</body>
+</html>
